@@ -1,0 +1,60 @@
+Set Collection:
+-> It's a Java Collections Framework provides three major implementations of
+the Set interface:
+1. HashSet
+2. LinkedHashSet
+3. TreeSet
+Characteristics of a set:
+- Duplicate elements are not allowed
+- Elements are not stored in order. That means you cannot expect elements
+    sorted in any order when iterating over elements of a Set.
+When and why use set:
+1. you want to store elements without duplication (unique el.)
+2. order of elements doesn't matter;
+Implementations of Set:
+1. HashSet - no duplication, unsorted;
+2. LinkedHashSet - based on insertion order. Store unique elements in order.
+3. TreeSet - orders its elements based on their values (sorted)
+
+==> Creating a new Set <==
+Set<Integer> numbers = new HashSet<>();
+Set<String> names = new LinkedHashSet<>();
+Set<String> bigNames = new HashSet<>(1000); // initial capacity 1000
+
+We can create a Set from an existing collection. This is a trick to remove duplicate
+elements in non-Set collection.
+
+-> Since Set collection is not index based and there is no order of elements we cannot loop over
+    this collection using indices [index position]
+    * To loop we use enhanced loop or Iterator interface.
+==> Iterator -> is an interface used for iterating over collections such as: Set ect.
+    - boolean hasNext() -> returns true if the iteration has more elements. (in the collection)
+    - E next() -> returns the next element in the iteration
+
+     Iterator<E> iterator() -> returns an iterator over the elements in this set. The elements are returned
+                                in no particular order. (unless this set is an instance of a some class
+                                that provides a guarantee)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
