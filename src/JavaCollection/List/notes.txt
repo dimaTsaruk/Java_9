@@ -1,0 +1,41 @@
+=> List Interface - is a data structure in which we can store
+the ordered collection
+ of objects. It can have duplicate values.
+List interface is implemented by the classes:  ArrayList, LinkedList,
+(Vector, and Stack).
+
+========================================================================
+List in Java provides the facility to maintain the ordered collection.
+It contains the index-based methods to insert, update,
+delete and search the elements. It can have the duplicate elements also.
+We can also store the null elements in the list.
+The List interface is found in the java.util
+package and inherits the Collection interface.
+
+#####_____ ArrayList _____#####
+The ArrayList class implements the List interface.
+It uses a dynamic array to store the duplicate element of different data types.
+The ArrayList class maintains the insertion order and is non-synchronized.
+The elements stored in the ArrayList class can be randomly accessed.
+
+#####_____ LinkedList _____#####
+LinkedList implements the Collection interface.
+It uses a doubly linked list internally to store the elements.
+It can store the duplicate elements.
+It maintains the insertion order and is not synchronized.
+In LinkedList, the manipulation is fast because no shifting is required.
+
+#### ArrayList vs LinkedList #####
+===>  Common :
+    ArrayList and LinkedList both implements
+        List interface and maintains insertion order.
+        Both are non synchronized classes.
+
+===>  Difference:
+// 1.
+    ArrayList uses a dynamic array to store the elements.
+    LinkedList uses a doubly linked list to store the elements.
+// 2.
+    ArrayList is better for storing and accessing data.
+    LinkedList is better for manipulating data.
+====================================================================================
