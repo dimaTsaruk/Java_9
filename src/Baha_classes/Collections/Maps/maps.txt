@@ -1,0 +1,30 @@
+Because a Map is not a true collection, its characteristics and behaviours are different
+than the other collections like List or Set.
+A Map cannot contain duplicate keys and each key can map to at most one value.
+Some implementations allow null key and null value (HashMap and LinkedHashMap) but some
+doesnt (TreeMap). The order of a map depends on specific implementations, e.g. TreeMap and
+LinkedHashMap have predictable order, while HashMap does not.
+
+==> Implementation of Map <==
+- there are 3 most common : HashMap, LinkedHashMap, TreeMap.
+-> HashMap - uses a hash table as the underlying data structure. Allows null values and one
+    null key.
+-> LinkedHashMap - order predictable with insertion-order as the default order.
+-> TreeMap - sorted according to the natural ordering. Sorts its key-value pairs by the
+    natural order of the keys( alphabetical or numerical order) or by a custom specif.order.
+
+    ======   Why and when ======
+Maps are perfectly for key-value association mapping such as dictionaries.
+(when you want to retrieve and update elements by keys or perform lookups by keys.
+
+
+
+
+
+
+
+
+
+
+
+
