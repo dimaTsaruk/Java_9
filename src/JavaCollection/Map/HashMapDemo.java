@@ -31,7 +31,7 @@ public class HashMapDemo {
         System.out.println(m.isEmpty()); // false
 
         // retrieve only keys from HashMap
-        System.out.println(m.keySet()); // return all the keys as a Set
+        System.out.println(m.keySet()); // return all the keys as a JavaCollection.Set
         for (Object i : m.keySet()) {
             System.out.println(i);
         }
@@ -41,13 +41,13 @@ public class HashMapDemo {
             System.out.println(i);
         }
 
-        System.out.println(m.keySet()); // return all the keys as a Set
+        System.out.println(m.keySet()); // return all the keys as a JavaCollection.Set
         for (Object i : m.keySet()) {
             System.out.println(i + " " + m.get(i));
         }
 
 
-        //System.out.println(m.entrySet()); // returns all the entries as Set
+        //System.out.println(m.entrySet()); // returns all the entries as JavaCollection.Set
 
 
     }

@@ -1,25 +1,25 @@
-package Set;
+package JavaCollection.Set;
 
 import java.util.*;
 
 public class SetMethods {
     public static void main(String[] args) {
-        /** In Set duplicate elements are not allowed.
+        /** In JavaCollection.Set duplicate elements are not allowed.
          * Elements are not stored in order. Storing unique elements without duplication.
          * Implementation:
          * -> HashSet - most common, no duplicates, unordered.
-         * -> LinkedHashSet - orders elements based on insertion order, store unique elem. in order.
+         * -> LinkedHashSet_Intro - orders elements based on insertion order, store unique elem. in order.
          * -> TreeSet - orders elements based on their values, natural order.
          *
          */
 
-        /*Set<Integer> numbers = new HashSet<>();
-        Set<String> names = new LinkedHashSet<>();
-        Set<String> names1 = new HashSet<>(1000);
+        /*JavaCollection.Set<Integer> numbers = new HashSet<>();
+        JavaCollection.Set<String> names = new LinkedHashSet_Intro<>();
+        JavaCollection.Set<String> names1 = new HashSet<>(1000);
 
         List<Integer> listNumbers = Arrays.asList(3, 2, 4, 3, 2, 1, 9);
         System.out.println(listNumbers);
-        Set<Integer> uniqueNumbers = new HashSet<>(listNumbers);
+        JavaCollection.Set<Integer> uniqueNumbers = new HashSet<>(listNumbers);
         System.out.println(uniqueNumbers);*/
 
         //Methods

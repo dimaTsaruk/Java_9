@@ -1,5 +1,5 @@
 Because a Map is not a true collection, its characteristics and behaviours are different
-than the other collections like List or Set.
+than the other collections like List or JavaCollection.Set.
 A Map cannot contain duplicate keys and each key can map to at most one value.
 Some implementations allow null key and null value (HashMap and LinkedHashMap) but some
 doesnt (TreeMap). The order of a map depends on specific implementations, e.g. TreeMap and

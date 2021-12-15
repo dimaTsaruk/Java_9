@@ -8,12 +8,12 @@ public class maps {
                 ArrayList<>(Arrays.asList("Chicago", "LA", "SF", "NY", "Boston", "Dallas"));
         System.out.println("Cities in list: " + listOfCities);
 
-        // LinkedHashSet implementation of Set interface
+        // LinkedHashSet_Intro implementation of JavaCollection.Set interface
         // stores the elements in insertion order [the order they were inserted]
         Set<String> linkedSetOfCities = new LinkedHashSet<>(listOfCities);
-        System.out.println("Cities in LinkedHashSet: " + linkedSetOfCities);
+        System.out.println("Cities in LinkedHashSet_Intro: " + linkedSetOfCities);
 
-        // HashSet implementation of Set interface stores
+        // HashSet implementation of JavaCollection.Set interface stores
         // elements without any order
         Set<String> hashSetOfCities = new HashSet<>(listOfCities);
         System.out.println("Cities in HashSet: " + hashSetOfCities);

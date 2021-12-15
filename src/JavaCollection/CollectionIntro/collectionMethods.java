@@ -1,4 +1,4 @@
-package JavaCollection;
+package JavaCollection.CollectionIntro;
 
 import java.util.*;
 
@@ -15,7 +15,7 @@ public class collectionMethods {
         id.add(123);
 
         // 2. public boolean addAll(...)
-        // makes Set from array list
+        // makes JavaCollection.Set from array list
         id.addAll(IL_id);
         System.out.println(id);
 
